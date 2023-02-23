@@ -17,7 +17,7 @@ terraform {
 }
 
 
-# app_name = auth0-connectors er 123
+# app_name = auth0-connectors er 1234
 resource "tfe_workspace" "testworkspace" {
   name         = "workspace1"
   organization = "BineeshN"
