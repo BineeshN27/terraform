@@ -23,3 +23,10 @@ resource "tfe_workspace" "testworkspace" {
   organization = "BineeshN"
   tag_names    = ["test", "app"]
 }
+
+# app_name = auth0-connectors er 123
+resource "tfe_workspace" "testworkspace" {
+  name         = "workspace2"
+  organization = "BineeshN"
+  tag_names    = ["test", "app"]
+}
