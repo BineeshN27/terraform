@@ -17,7 +17,7 @@ terraform {
 }
 
 provider "google" {
-  project = "warm-melody-378007"
+  project = "test-project1-383919"
   region  = "us-central1"
   zone    = "us-central1-a"
   #credentials = "serviceaccount-tf.json"
